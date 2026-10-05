@@ -5,6 +5,7 @@ import { defineConfig } from 'vite'
 import arraybuffer from 'vite-plugin-arraybuffer'
 
 export default defineConfig({
+    base: '/sonolus-pjsekai-R-level-packer/',
     plugins: [vue(), arraybuffer(), tailwindcss()],
 
     resolve: {
